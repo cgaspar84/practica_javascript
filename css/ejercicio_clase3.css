@@ -1,0 +1,87 @@
+.form-container {
+    max-width: 700px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    border-radius: 8px;
+    font-family: Verdana, "Times New Roman", Times, serif;
+  }
+  
+  .form-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-container input {
+    background-color: #d2d9dd;
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: darkslategray;
+    /*box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3) inset;*/
+    margin-bottom: 30px;
+  }
+  
+  .form-container input:focus {
+    background: #c2d3cd;
+  }
+  
+  .form-container button {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    margin: 0 auto;
+    background: #1abc9c;
+    text-transform: uppercase;
+    border: 3px solid #16a085;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: none;
+  }
+  
+  .resultTable {
+    font-family: Verdana, Geneva, sans-serif;
+    border: 6px solid #16a085;
+    width: 100%;
+    text-align: center;
+  }
+  .resultTable td,
+  .resultTable th {
+    border: 1px solid #16a085;
+  }
+  .resultTable tbody td {
+    font-size: 13px;
+  }
+  .resultTable thead {
+    background: #16a085;
+  }
+  .resultTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .resultTable td {
+    font-size: 13px;
+  }
+  
