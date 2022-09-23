@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/ejercicio_clase8.css"
+    />
+  </head>
+  <body onload="resetGame()">
+    <div class="form-container">
+      <h1>Adivina la figura</h1>
+      <div class="gameBoard">
+        <img
+          id="gameHint"
+          src=""
+          width="200px"
+          height="200px"
+          alt="Cargando..."
+        />
+
+        <h5 id="gameAnswer">Cargando...</h5>
+      </div>
+      <div id="currentTries">
+        <h2>Nro de Intentos: <span id="retriesLeft">6</span></h2>
+        <div id="playerCurrentTries"></div>
+      </div>
+
+      <input
+        id="guessChar"
+        type="text"
+        maxlength="1"
+        placeholder="Ingrese caracter"
+      />
+
+      <input type="button" value="Enviar Intento" onclick="hangmanGame()" />
+      <input type="button" value="RESET" onclick="resetGame()" />
+
+      <script src="js/ejercicio_clase8.js"></script>
+    </div>
+  </body>
+</html>

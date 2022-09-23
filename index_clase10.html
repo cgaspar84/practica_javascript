@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript :: Ejercicio Clase 10</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/ejercicio_clase4.css"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Cantidad registrados:<span id="counter">0</span></h2>
+      <form>
+        <input type="text" id="iDNI" placeholder="Ingrese su DNI" required="true"/>
+        <input
+          type="text"
+          id="iName"
+          placeholder="Ingrese su nombre"
+          required="true"
+        />
+        <input
+          type="text"
+          id="iSurname"
+          placeholder="Ingrese su apellido"
+          required="true"
+        />
+        <input type="tel" id="iTelephone" placeholder="Telefono" />
+        <input type="date" id="iBirthdate" placeholder="Fecha de Nacimiento" />
+        <input type="number" id="iPrice" placeholder="Ingrese el precio" />
+        <button type="button" onclick="registerPerson()">Registrar</button>
+      </form>
+      <hr />
+      <div id="resultList"></div>
+    </div>
+
+    <script src="js/ejercicio_clase10.js"></script>
+  </body>
+</html>
